@@ -7,11 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-<<<<<<< HEAD
     "deploy":"ng deploy --base-href \"yashrajdawkhar.github.io/codewithbro_admin/\" "
-=======
-    "deploy": "ng deploy --base-href 'yashrajdawkhar.github.io/codewithbro_admin/' "
->>>>>>> 9309da163810efa46341e7c5e910d616dfd12ae4
   },
   "private": true,
   "dependencies": {
