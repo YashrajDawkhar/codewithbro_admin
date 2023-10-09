@@ -7,7 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+<<<<<<< HEAD
     "deploy":"ng deploy --base-href \"yashrajdawkhar.github.io/codewithbro_admin/\" "
+=======
+    "deploy": "ng deploy --base-href 'yashrajdawkhar.github.io/codewithbro_admin/' "
+>>>>>>> 9309da163810efa46341e7c5e910d616dfd12ae4
   },
   "private": true,
   "dependencies": {
@@ -29,12 +33,15 @@
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
     "angular-cli-ghpages": "^1.0.7",
+    "autoprefixer": "^10.4.16",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
     "typescript": "~4.9.4"
   }
 }
